@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #ECEFF0;
+}
+.container {
+    display: flex;
+    min-width: 100%;
+    background-color: #3E416D;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  }
+.container > a{
+    text-decoration: none;
+    color: white;
+}
+.container > a > div:not(.active){
+    background-color: #3E416D;
+    padding: 20px;
+}
+.active{
+    background-color: #65678A;
+    padding: 17.5px;
+    border-bottom: 5px solid #580B80;
+}
+.container > a > div:not(.active):hover{
+    background-color: #65678A;
+}
+.active2{
+    font-size: 0px;
+    color: white;
+}
+
+
+
+.katta{
+    width: 67%;
+    padding: 84px;
+    margin: auto;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana;
+}
+.col{
+  min-width: 250px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 3px 3px rgb(189, 189, 189);
+  border-radius: 5px;
+  height: 250px;
+  text-decoration: none;
+  background-color: white;
+}
+
+.box > a{
+    text-decoration: none;
+    color: black;
+}
+
+.box2{
+    width: 200px;
+    display: flex;
+    font-family: Verdana;
+}
+
+.box2 > a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 560px) {
+
+    .container{
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        text-decoration: none;
+    }   
+    .container > a > div{
+     font-size: 0px;
+   }
+   
+   .active2{
+       padding: 20px;
+       font-size: 25px;
+   }
+   .container > a > div:not(.active):hover{
+     background-color: #3E416D;
+     cursor: auto;
+   }
+   
+   .active{
+   background-color: #3E416D;
+   border-bottom: none;
+   cursor: auto;
+   }
+   .box{
+    flex-direction: column;
+}
+   .box2{
+       flex-direction: column;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

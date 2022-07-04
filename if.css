@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ECEFF0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    display: flex;
+    min-width: 100%;
+    background-color: #3E416D;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  }
+.container > a{
+    text-decoration: none;
+    color: white;
+}
+.container > a > div:not(.active){
+    background-color: #3E416D;
+    padding: 20px;
+}
+.active{
+    background-color: #65678A;
+    padding: 17.5px;
+    border-bottom: 5px solid #580B80;
+}
+.container > a > div:not(.active):hover{
+    background-color: #65678A;
+}
+.active2{
+    font-size: 0px;
+    color: white;
+}
+
+.active3{
+    display: flex;
+
+    font-size: 0px;
+    color: white;
+}
+
+
+.bitta{
+    width: 100%;
+    display: inline-block;
+}
+
+.box{
+    width: 20%;
+    overflow: auto;
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    height: 1000px;
+    flex-direction: column;
+    background: white;
+}
+
+.ong{
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    background: white;  
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    flex-direction: column;
+}
+
+.ong2{
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+    background: white;  
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    flex-direction: column;
+}
+
+ul{
+    margin-left: 30px;
+}
+
+.input{
+    min-width: 90%;
+    height: 170px;
+}
+.jjj{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+.jonat{
+    background: green;
+    border-radius: 3px;
+    padding: 10px;
+    width: 80px;
+    border: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+@media only screen and (max-width: 560px) {
+
+    .container{
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        text-decoration: none;
+    }   
+    .container > a > div{
+     font-size: 0px;
+   }
+   
+   .active2{
+       padding: 20px;
+       font-size: 25px;
+   }
+   .container > a > div:not(.active):hover{
+     background-color: #3E416D;
+     cursor: auto;
+   }
+   
+   .active{
+   background-color: #3E416D;
+   border-bottom: none;
+   cursor: auto;
+   }
+   
+
+   .active3{
+    display: flex;
+    align-items: center;
+    margin-right: 260px;
+    font-size: 25px;
+    padding: 20px;
+    z-index: 1;
+    color: white;
+}
+   
+   .box{
+    width: 0px;
+    height: 0px;
+    background-color: #3E416D;
+    color: #3E416D;
+    margin-top: -20px;
+    margin-left: 10px;
+    z-index: -1;
+       display: block;
+       font-size: 0px;
+   }
+   
+   .box > p{
+       width: 0px;
+       background-color: #3E416D;
+       height: 0px;
+   }
+
+   
+   .ong{
+    width: 85%;
+    margin: auto;
+}
+
+.ong2{
+    width: 85%;
+    margin: auto;
+}
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

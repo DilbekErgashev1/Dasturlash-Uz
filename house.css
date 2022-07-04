@@ -1,0 +1,46 @@
+
+a:not(.one){
+    color: white;
+    text-decoration: none;
+    background-color: #009688;
+    min-width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+.one{
+    color: white;
+    text-decoration: none;
+    min-width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
